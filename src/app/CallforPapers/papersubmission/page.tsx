@@ -190,7 +190,7 @@ const tracks = [
       { name: "Blockchain Technology and Applications" },
       { name: "3D Printing and Applications" },
       { name: "Augmented Reality/ Virtual Reality" },
-      { name: "Cognitive Radio and Spectrum Management" },
+      { name: "Cognitive Radio and Spectrum Management and Other Related Topics" },
     ],
   },
 ];
@@ -216,7 +216,7 @@ const CallForPapers: React.FC = () => {
             Call For <span className="text-blue-600">Papers</span>
           </h2> */}
           <p className='text-blue-600 font-semibold mb-6 text-center text-4xl'>Sustainable Development-The Foundation of a Viksit Bharat</p>
-          <p className="bg-yellow-200 text-red-600 p-4 rounded-lg">
+          <p className="bg-indigo-50 text-black p-4 rounded-lg">
   Selected themes for the E2ACON 2025 proceedings are mainly comprising of the topics focusing on the new trends in the field of Electronics, Electrical, Automation, and Emerging Technologies.
 
   In addition to below, the organising committee of the conference also welcomes the proposals for special sessions on topics related to the field of interest of the conference.
