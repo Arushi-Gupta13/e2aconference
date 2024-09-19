@@ -1,17 +1,5 @@
 import React from 'react';
 
-<<<<<<< HEAD
-interface CommitteeMember {
-  name: string;
-  designation: string;
-  affiliation: string;
-}
-
-interface Committee {
-  [key: string]: CommitteeMember[];
-}
-const committee: Committee = {
-=======
 // Define the type for each committee member
 type CommitteeMember = {
     name: string;
@@ -26,7 +14,6 @@ type CommitteeType = {
 
 // Define the committee data with the new type
 const committee: CommitteeType = {
->>>>>>> fork/main
     "Technical Programme Chair(s)": [
         { name: "Prof. Mohamed Dahidah", affiliation: "NUS, UK" },
         { name: "Dr. Piyush Verma", designation: "Senior Governance Expert-Energy", affiliation: "United Nation Development Programme, New York, USA" },
@@ -111,7 +98,6 @@ const committee: CommitteeType = {
     ],
     "Scientific Committee": [
         { name: "Prof. Yogesh Vijay Hote", designation: "Professor", affiliation: "IIT Roorkee" },
-<<<<<<< HEAD
         { name: "Prof. Celia Shahnaz", designation: "",affiliation: "BUET, Bangladesh" },
         { name: "Prof. Moinuddin", designation: "",affiliation: "Apeejay Stya University, Gurugram" },
         { name: "Prof. Akhtar Kalam", designation: "",affiliation: "Australia" },
@@ -187,13 +173,6 @@ const committee: CommitteeType = {
     ],
     "Women @ E2ACON 2025":[
         { name: "Dr. Marta Zurek-Mortka", designation: "", affiliation: "Poland" },
-=======
-        { name: "Prof. Celia Shahnaz", affiliation: "BUET, Bangladesh" },
-        { name: "Prof. Monika Saini", affiliation: "NIT Jalandhar" }
-    ],
-    "Women @ E2ACON 2025": [
-        { name: "Dr. Marta Zurek-Mortka", affiliation: "Poland" },
->>>>>>> fork/main
         { name: "Prof. Celia Shahnaz", designation: "Professor", affiliation: "BUET, Bangladesh" },
         { name: "Dr. Manisha Yadav", affiliation: "IIT Roorkee" },
         { name: "Dr. Deepti Shukla", affiliation: "IIT Jodhpur" },
@@ -202,7 +181,6 @@ const committee: CommitteeType = {
     ]
 };
 
-<<<<<<< HEAD
 const Committee2 = () => {
   return (
       <section className="py-12">
@@ -229,34 +207,6 @@ const Committee2 = () => {
           ))}
       </section>
   );
-=======
-const Committee2: React.FC = () => {
-    return (
-        <section className="py-12">
-            <div className="text-center mb-8">
-                {/* <h2 className="text-3xl font-bold">
-                    Program <span className="text-blue-600">Committee</span>
-                </h2> */}
-            </div>
-
-            {/* Render committee without images */}
-            {Object.keys(committee).map((section, idx) => (
-                <div key={idx} className="mb-12">
-                    <h3 className="text-2xl font-semibold mb-4">{section}</h3>
-                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-                        {committee[section].map((member, index) => (
-                            <div key={index} className="bg-white p-6 rounded-lg shadow-lg text-center">
-                                <h4 className="text-xl font-bold">{member.name}</h4>
-                                {member.designation && <p className="text-blue-500">{member.designation}</p>}
-                                <p className="text-black">{member.affiliation}</p>
-                            </div>
-                        ))}
-                    </div>
-                </div>
-            ))}
-        </section>
-    );
->>>>>>> fork/main
 };
 
 export default Committee2;
