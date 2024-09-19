@@ -221,7 +221,7 @@ const CallForPapers: React.FC = () => {
 
   In addition to below, the organising committee of the conference also welcomes the proposals for special sessions on topics related to the field of interest of the conference.
 
-  Following are the topics to be included in the call for paper:
+ 
 </p>
 
           {/* Filter Section */}
