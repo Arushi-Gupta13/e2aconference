@@ -174,10 +174,21 @@ const committee: CommitteeType = {
     "Women @ E2ACON 2025":[
         { name: "Dr. Marta Zurek-Mortka", designation: "", affiliation: "Poland" },
         { name: "Prof. Celia Shahnaz", designation: "Professor", affiliation: "BUET, Bangladesh" },
-        { name: "Dr. Manisha Yadav", affiliation: "IIT Roorkee" },
-        { name: "Dr. Deepti Shukla", affiliation: "IIT Jodhpur" },
-        { name: "Dr. Suman Kumar", affiliation: "IIT Guwahati" },
-        { name: "Dr. Harleen Kaur", affiliation: "Panjab University" }
+        { name: "Dr. Charu Sharma", affiliation: "UiT The Arctic University of Norway" },
+        { name: "Prof. Premalata Jena", affiliation: "IIT Roorkee" },
+        { name: "Prof. Mamta Khosla", designation:"Professor and Dean (International Affairs)",affiliation: "NIT Jalandhar" },
+        { name: "Dr. Indu Saini", designation: "Associate Professor", affiliation: "NIT Jalandhar" },
+        { name: "Dr. Neetu Sood", designation: "Associate Professor", affiliation: "NIT Jalandhar" },
+        { name: "Prof. Shahida Khatoon", affiliation: "JMI, New Delhi" },
+        { name: "Dr. Richa Sharma", designation: "Assistant Professor", affiliation: "NIT Jalandhar" },
+        { name: "Dr. Deepika Rani", designation: "Assistant Professor", affiliation: "NIT Jalandhar" },
+        { name: "Dr. Neelam", designation: "Assistant Professor", affiliation: "NIT Jalandhar" },
+        { name: "Dr. Rajneesh Rani",  affiliation: "NIT Jalandhar" },
+        { name: "Dr. Jaspal Kaur Saini",  affiliation: "NIT Jalandhar" },
+        { name: "Dr. Roop Pahuja", designation: "Associate Professor", affiliation: "NIT Jalandhar" },
+        { name: "Dr. Sheela Tiwari", designation: "Associate Professor", affiliation: "NIT Jalandhar" },
+        { name: "Dr. Deblina Biswas", designation: "Assistant Professor", affiliation: "NIT Jalandhar" },
+    
     ]
 };
 
